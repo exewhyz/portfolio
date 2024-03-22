@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 222, 222);
+    font-size: 30px;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(90, 88, 88, 0.234);
+    height: 80px;
+    padding: 20px;
+}
+.logo{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+div ul {
+    /* border: 1px solid red; */
+    display: flex;
+    list-style: none;
+}
+
+div ul li{
+    /* border: 1px solid red; */
+    margin: 5px;
+}
+li a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section{
+    height: auto;
+    margin: 10px;
+    padding: 40px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    gap: 30px;
+}
+.colored-name{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(28, 201, 172);
+}
+.details{
+    margin: 20px 0;
+}
+.project{
+    border: 1px solid burlywood;
+    min-height: 350px;
+    height: fit-content;
+    max-height: 500px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-items{
+    margin: 10px 0;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px 0;
+    flex-wrap: wrap;
+}
+.course-details{
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    color: rgb(23, 20, 20);
+}
+
+.course-details p{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    background-color:cadetblue;
+    border-radius: 5px;
+}
+
+.more-details{
+    flex-direction: column;
+    margin-top: 50px;
+    list-style-type:decimal ;
+    padding: 0 30px;
+}
